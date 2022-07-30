@@ -7,7 +7,6 @@ const app = express()
 const cookieParser = require('cookie-parser')
 const cors = require('cors')
 const mongoSanitize = require('express-mongo-sanitize')
-const xss = require('xss-clean')
 
 //database
 const connectDB = require('./db/connect')
